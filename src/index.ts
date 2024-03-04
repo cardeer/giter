@@ -1,7 +1,7 @@
 #!/usr/bin/env bun
 
 import { program } from "commander";
-import { configCommand } from "./commands/configs";
+import { configCommand } from "./commands/config";
 import { mergeCommand } from "./commands/merge";
 import { chalk } from "./utils/chalk";
 import { Git } from "./utils/git";
