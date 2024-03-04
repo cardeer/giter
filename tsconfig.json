@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "noImplicitAny": false,
+    "strict": true,
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["src"]
+}
