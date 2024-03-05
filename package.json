@@ -4,7 +4,8 @@
   "bin": "./dist/index.js",
   "scripts": {
     "dev": "bun src/index.ts",
-    "build": "bun bun.build.ts"
+    "build:binary": "bun build --outfile=./dist/giter --compile --minify --sourcemap=none ./src/index.ts",
+    "build": "bun run bun.build.ts"
   },
   "module": "index.ts",
   "type": "module",
